@@ -1,0 +1,17 @@
+/.vscode
+/data
+/modelo_base_teste.pth
+/modelo_base_teste_003.pth
+/modelo_base_teste_003_treino_ok.pth
+/modelo_treinado.pth
+/python_pytorch_001.py
+/python_pytorch_002.py
+/python_pytorch_003.py
+/python_pytorch_aula_003.py
+/python_pytorch_modelo_base.py
+/python_pytorch_modelo_ml.py
+/python_pytorch_modelo_uso.py
+/python_streamlit_001.py
+/python_streamlit_002.py
+/python_streamlit_003.py
+/python_streamlit_004.py
