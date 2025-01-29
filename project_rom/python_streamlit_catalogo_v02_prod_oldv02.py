@@ -4,34 +4,20 @@ import re
 import time
 
 # Título da aplicação
-st.title("Consulta de Produtos - Rommanel")
+st.title("Consulta de Produtos")
 
-# Estado inicial para o ID do produto
-if "product_id_base" not in st.session_state:
-    st.session_state.product_id_base = 0
+# Campo de entrada numérica para o ID do produto
+product_id_base = st.number_input(
+    "Digite o ID base do produto (Exemplo: 820252):", 
+    min_value=0, 
+    step=1, 
+    format="%d", 
+    value=0
+)
 
-# Função para limpar o campo de entrada
-def limpar_input():
-    st.session_state.product_id_base = 0
-
-# Criação das colunas para os botões
-col1, col2 = st.columns([2, 1])
-
-with col1:
-    # Campo de entrada numérica para o ID do produto
-    product_id_base = st.number_input(
-        "Digite o ID base do produto (Exemplo: 820252):",
-        min_value=0,
-        step=1,
-        format="%d",
-        value=st.session_state.product_id_base,
-        key="product_id_base"
-    )
-
-with col2:
-    # Botão para limpar o campo
-    if st.button("Limpar", on_click=limpar_input):
-        pass
+# Exibe um aviso enquanto o usuário não digitar um valor válido
+if product_id_base == 0:
+    st.info("Digite o ID do produto para continuar.")
 
 # Lista de URLs para buscar o produto
 urls = [
