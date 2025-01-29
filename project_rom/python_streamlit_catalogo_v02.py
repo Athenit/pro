@@ -7,7 +7,7 @@ import json
 st.title("Consulta de Produtos")
 
 # Campo de entrada para o ID do produto
-product_id_base = st.text_input("Digite o ID base do produto (Exemplo: 820252):", "")
+product_id_base = st.number_input("Digite o ID base do produto (Exemplo: 820252):", min_value=0, step=1, format="%d")
 
 # Botão para buscar as informações
 if st.button("Buscar Produto"):
