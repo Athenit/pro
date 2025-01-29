@@ -3,6 +3,10 @@ import requests
 import re
 import time
 
+# Verifica se a variável não existe ainda e a inicializa
+if "product_id_base_swap" not in st.session_state:
+    st.session_state.product_id_base_swap = 0
+
 
 # Função para limpar o campo de entrada
 def limpar_input():
@@ -29,7 +33,8 @@ col1, col2 = st.columns([2, 1])
 with col1:
     # Botão swap para buscar o produto
     if st.button("Buscar Produto", key="btn_buscar"):
-        st.session_state.product_id_base_swap = product_id_base
+        pass
+        # st.session_state.product_id_base_swap = product_id_base
 
 with col2:
     # Botão para limpar o campo
