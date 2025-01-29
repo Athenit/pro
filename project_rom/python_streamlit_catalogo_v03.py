@@ -1,10 +1,9 @@
 import streamlit as st
 import requests
 import re
-import time
 
 # Título da aplicação
-st.title("Consulta de Produtos")
+st.title("Consulta de Produtos - Rommanel")
 
 # Campo de entrada numérica para o ID do produto
 product_id_base = st.number_input(
@@ -36,15 +35,10 @@ if st.button("Buscar Produto") and product_id_base != 0:
             response = requests.get(url)
 
             if response.status_code == 200:
-                # Para a URL específica de "aneis", captura o ID dentro da tag <div>
-                if "aneis" in url:
-                    match = re.search(r'<div class="content-shelf teste" id="(\d+)">', response.text)
-                else:
-                    # Busca o número do produto na chave "shelfProductIds" para outras URLs
-                    match = re.search(r'"shelfProductIds":\["(\d+)"\]', response.text)
-
+                # Busca o número do produto na chave "shelfProductIds"
+                match = re.search(r'"shelfProductIds":\["(\d+)"\]', response.text)
                 if match:
-                    product_id = match.group(1)  # Captura o ID completo (ex.: "27000100")
+                    product_id = match.group(1)  # Captura o valor completo (Exemplo: "82025200")
 
                     # Monta a URL da API
                     url_api = f"https://www.rommanel.com.br/api/catalog_system/pub/products/search?fq=productId:{product_id}"
@@ -73,14 +67,8 @@ if st.button("Buscar Produto") and product_id_base != 0:
                         st.write(f"**Tema:** {', '.join(data.get('Tema', []))}")
                         st.write(f"**Coleção:** {', '.join(data.get('Coleção', []))}")
                         break
-            else:
-                st.warning(f"Não foi possível acessar a URL: {url}")
-
         except Exception as e:
             st.error(f"Erro ao acessar a URL {url}: {e}")
-
-        # Timer de 1 segundo entre as consultas
-        time.sleep(1)
 
     if not product_found:
         st.error("Produto não encontrado nas URLs fornecidas.")

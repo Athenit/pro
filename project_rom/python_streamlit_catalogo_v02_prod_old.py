@@ -1,50 +1,29 @@
 import streamlit as st
 import requests
 import re
-import time
+import json
 
 # Título da aplicação
 st.title("Consulta de Produtos")
 
-# Campo de entrada numérica para o ID do produto
-product_id_base = st.number_input(
-    "Digite o ID base do produto (Exemplo: 820252):", 
-    min_value=0, 
-    step=1, 
-    format="%d", 
-    value=0
-)
-
-# Exibe um aviso enquanto o usuário não digitar um valor válido
-if product_id_base == 0:
-    st.info("Digite o ID do produto para continuar.")
-
-# Lista de URLs para buscar o produto
-urls = [
-    f"https://www.rommanel.com.br/joias/{int(product_id_base)}",
-    f"https://www.rommanel.com.br/joias/aneis/{int(product_id_base)}",
-    f"https://www.rommanel.com.br/relogios/{int(product_id_base)}",
-]
+# Campo de entrada para o ID do produto
+product_id_base = st.number_input("Digite o ID base do produto:", min_value=0, step=1, format="%d")
 
 # Botão para buscar as informações
-if st.button("Buscar Produto") and product_id_base != 0:
-    product_found = False
-
-    for url in urls:
+if st.button("Buscar Produto"):
+    if product_id_base:
         try:
-            # Faz a requisição para a URL atual
-            response = requests.get(url)
+            # Gera a URL inicial com o ID base fornecido pelo usuário
+            url_inicial = f"https://www.rommanel.com.br/joias/{product_id_base}"
+
+            # Faz a requisição para a URL inicial
+            response = requests.get(url_inicial)
 
             if response.status_code == 200:
-                # Para a URL específica de "aneis", captura o ID dentro da tag <div>
-                if "aneis" in url:
-                    match = re.search(r'<div class="content-shelf teste" id="(\d+)">', response.text)
-                else:
-                    # Busca o número do produto na chave "shelfProductIds" para outras URLs
-                    match = re.search(r'"shelfProductIds":\["(\d+)"\]', response.text)
-
+                # Busca o número do produto na chave "shelfProductIds"
+                match = re.search(r'"shelfProductIds":\["(\d+)"\]', response.text)
                 if match:
-                    product_id = match.group(1)  # Captura o ID completo (ex.: "27000100")
+                    product_id = match.group(1)  # Captura o valor completo (Exemplo: "82025200")
 
                     # Monta a URL da API
                     url_api = f"https://www.rommanel.com.br/api/catalog_system/pub/products/search?fq=productId:{product_id}"
@@ -53,7 +32,6 @@ if st.button("Buscar Produto") and product_id_base != 0:
                     api_response = requests.get(url_api)
                     if api_response.status_code == 200 and api_response.json():
                         data = api_response.json()[0]  # Extrai o primeiro item da lista
-                        product_found = True
 
                         # Exibe as informações formatadas
                         st.subheader("Informações do Produto")
@@ -72,15 +50,13 @@ if st.button("Buscar Produto") and product_id_base != 0:
                         st.write(f"**Faixa Etária:** {', '.join(data.get('Faixa Etária', []))}")
                         st.write(f"**Tema:** {', '.join(data.get('Tema', []))}")
                         st.write(f"**Coleção:** {', '.join(data.get('Coleção', []))}")
-                        break
+                    else:
+                        st.error("Não foi possível obter as informações do produto na API.")
+                else:
+                    st.error("Não foi possível encontrar o número do produto na URL inicial.")
             else:
-                st.warning(f"Não foi possível acessar a URL: {url}")
-
+                st.error("Erro ao acessar a URL inicial. Verifique o ID base do produto.")
         except Exception as e:
-            st.error(f"Erro ao acessar a URL {url}: {e}")
-
-        # Timer de 1 segundo entre as consultas
-        time.sleep(1)
-
-    if not product_found:
-        st.error("Produto não encontrado nas URLs fornecidas.")
+            st.error(f"Ocorreu um erro: {e}")
+    else:
+        st.warning("Por favor, insira o ID base do produto.")
