@@ -3,34 +3,37 @@ import requests
 import re
 import time
 
-# Título da aplicação
-st.title("Consulta de Produtos - Rommanel")
-
-# Estado inicial para o ID do produto
-if "product_id_base" not in st.session_state:
-    st.session_state.product_id_base = 0
 
 # Função para limpar o campo de entrada
 def limpar_input():
-    st.session_state.product_id_base = 0
+    st.session_state.product_id_base_swap = 0
+
+
+# Título da aplicação
+st.title("Consulta de Produtos")
+
+
+# Campo de entrada numérica para o ID do produto
+product_id_base = st.number_input(
+    "Digite o ID base do produto (Exemplo: 820252):", 
+    min_value=0, 
+    step=1, 
+    format="%d", 
+    key="product_id_base_swap"
+)
+
 
 # Criação das colunas para os botões
 col1, col2 = st.columns([2, 1])
 
 with col1:
-    # Campo de entrada numérica para o ID do produto
-    product_id_base = st.number_input(
-        "Digite o ID base do produto (Exemplo: 820252):",
-        min_value=0,
-        step=1,
-        format="%d",
-        value=st.session_state.product_id_base,
-        key="product_id_base"
-    )
+    # Botão swap para buscar o produto
+    if st.button("Buscar Produto", key="btn_buscar"):
+        st.session_state.product_id_base_swap = product_id_base
 
 with col2:
     # Botão para limpar o campo
-    if st.button("Limpar", on_click=limpar_input):
+    if st.button("Limpar", on_click=limpar_input, key="btn_limpar"):
         pass
 
 # Lista de URLs para buscar o produto
@@ -41,7 +44,7 @@ urls = [
 ]
 
 # Botão para buscar as informações
-if st.button("Buscar Produto") and product_id_base != 0:
+if st.session_state.product_id_base_swap and product_id_base != 0:
     product_found = False
 
     for url in urls:
