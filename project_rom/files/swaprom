@@ -1,0 +1,695 @@
+
+<!DOCTYPE html >
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:vtex="http://www.vtex.com.br/2009/vtex-common" xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-commerce">
+  <head><meta name="language" content="pt-BR" />
+<meta name="country" content="BRA" />
+<meta name="currency" content="R$" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="description" content="A Rommanel produz joias folheadas a ouro 18k, joias folheadas a Rhodium e joias em Aço." />
+<meta name="Abstract" content="820252 em Joias – Rommanel" />
+<meta name="author" content="rommanel" />
+<meta name="copyright" content="rommanel" />
+<meta name="vtex-version" content="1.0.0.0" />
+<meta http-equiv="pragma" content="no-cache" />
+<meta http-equiv="X-UA-Compatible" content="IE=8" /><meta charset="utf-8" /><meta name="viewport" content="width=device-width,initial-scale=1" /><link rel="shortcut icon" type="image/x-icon" href="/arquivos/favicon.ico?v=636340700851730000" /><title>820252 em Joias – Rommanel</title><script type="text/javascript" language="javascript">var jscheckoutUrl = 'https://www.rommanel.com.br/checkout/#/cart';var jscheckoutAddUrl = 'https://www.rommanel.com.br/checkout/cart/add';var jscheckoutGiftListId = '';var jsnomeSite = 'rommanel';var jsnomeLoja = 'rommanel';var jssalesChannel = '2';var defaultStoreCurrency = 'R$';var localeInfo = {"CountryCode":"BRA","CultureCode":"pt-BR","CurrencyLocale":{"RegionDisplayName":"Brazil","RegionName":"BR","RegionNativeName":"Brasil","TwoLetterIsoRegionName":"BR","CurrencyEnglishName":"Brazilian Real","CurrencyNativeName":"Real","CurrencySymbol":"R$","ISOCurrencySymbol":"BRL","Locale":1046,"Format":{"CurrencyDecimalDigits":2,"CurrencyDecimalSeparator":",","CurrencyGroupSeparator":".","CurrencyGroupSize":3,"StartsWithCurrencySymbol":true},"FlagUrl":"http://www.geonames.org/flags/x/br.gif"}};</script> 
+<script type="text/javascript" language="javascript">vtxctx = {"searchTerm":"820252","categoryId":"25","categoryName":"Joias","departmentyId":"25","departmentName":"Joias","isOrder":"0","isCheck":"0","isCart":"0","actionType":"","actionValue":"","login":null,"url":"www.rommanel.com.br","transurl":"www.rommanel.com.br"};</script> 
+<script language="javascript" src="https://io.vtex.com.br/front-libs/jquery/1.8.3/jquery-1.8.3.min.js?v=1.0.0.0"   type="text/javascript"></script>
+<script language="javascript" src="https://rommanel.vteximg.com.br/scripts/swfobject.js?v=1.0.0.0"   type="text/javascript"></script>
+<script language="javascript" src="https://rommanel.vteximg.com.br/scripts/vtex.ajax.wait.js?v=1.0.0.0"   type="text/javascript"></script>
+<script language="javascript" src="https://rommanel.vteximg.com.br/scripts/vtex.common.js?v=1.0.0.0"   type="text/javascript"></script>
+<script language="javascript" src="https://vtex.vtexassets.com/_v/public/assets/v1/npm/@vtex/render-extension-loader@0.1.6/lib/render-extension-loader.js?v=1.0.0.0"   type="text/javascript"></script>
+<script language="javascript" src="https://io.vtex.com.br/rc/rc.js?v=1.0.0.0"   type="text/javascript"></script>
+<script language="javascript" src="https://activity-flow.vtex.com/af/af.js?v=1.0.0.0"   type="text/javascript"></script>
+<script language="javascript" src="https://rommanel.vteximg.com.br/scripts/vtex.tagmanager.helper.js?v=1.0.0.0"   type="text/javascript"></script>
+<script language="javascript" src="https://io.vtex.com.br/portal-ui/v1.21.0/scripts/vtex-events-all.min.js?v=1.0.0.0"   type="text/javascript"></script>
+<script language="javascript" src="https://io.vtex.com.br/portal-ui/v1.21.0/scripts/vtex-analytics.js?v=1.0.0.0"   type="text/javascript"></script>
+<script language="javascript" src="https://io.vtex.com.br/front-libs/front-i18n/0.7.2/vtex-i18n.min.js?v=1.0.0.0"   type="text/javascript"></script>
+<script language="javascript" src="https://io.vtex.com.br/front-libs/front-utils/3.0.8/underscore-extensions.js?v=1.0.0.0"   type="text/javascript"></script>
+<script language="javascript" src="https://rommanel.vteximg.com.br/scripts/currency-format.min.js?v=1.0.0.0"   type="text/javascript"></script>
+<script language="javascript" src="https://io.vtex.com.br/front-libs/dustjs-linkedin/2.3.5/dust-core-2.3.5.min.js?v=1.0.0.0"   type="text/javascript"></script>
+<script language="javascript" src="https://io.vtex.com.br/vtex.js/v2.13.1/vtex.min.js?v=1.0.0.0"   type="text/javascript"></script>
+<script language="javascript" src="https://io.vtex.com.br/portal-plugins/2.9.13/js/portal-template-as-modal.min.js?v=1.0.0.0"   type="text/javascript"></script>
+<script language="javascript" src="https://io.vtex.com.br/portal-plugins/2.9.13/js/portal-sku-selector-with-template.min.js?v=1.0.0.0"   type="text/javascript"></script>
+<script language="javascript" src="https://rommanel.vteximg.com.br/scripts/vtex.cookie.js?v=1.0.0.0"   type="text/javascript"></script>
+<script language="javascript" src="https://rommanel.vteximg.com.br/scripts/jquery.pager.js?v=1.0.0.0"   type="text/javascript"></script>
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900" rel="stylesheet" /><link href="https://fonts.googleapis.com/css?family=Rozha+One" rel="stylesheet" /><link rel="stylesheet" href="/arquivos/owl.carousel.min.css?v=636340700145900000" /><link rel="stylesheet" href="/arquivos/owl.theme.default.min.css?v=636340700155470000" /><link rel="stylesheet" href="/arquivos/magnific-popup.css?v=636340700473200000" /><link rel="stylesheet" href="/arquivos/vtex-smartResearch.css?v=636740917504070000" /><link rel="stylesheet" href="/arquivos/rommanelb2c.style.0.0.5.css?v=638235572262300000" /><link rel="stylesheet" href="/arquivos/rommanel.login.css?v=636964867094700000" /><link rel="stylesheet" href="/arquivos/rommanel.produto-zoom.css?v=636407405191200000" /><link rel="stylesheet" href="/arquivos/b8one.bundle.v.12.min.css?v=637104778933130000" /><link rel="stylesheet" href="/arquivos/rommanel.categoria-filtro.0.0.2.css?v=637968542155530000" /><link rel="stylesheet" href="/arquivos/rommanel.categoria-resultado.0.0.3.css?v=637968538483370000" /><script src="https://kit.fontawesome.com/03207d5b12.js"></script><style>
+    /*
+    .btn--green {
+        background: rgba(242, 112, 99, 0.63) !important;
+    }
+    .btn--green:hover {
+        background: #f27063 !important;
+    }
+    */
+    
+    .gototop {
+        background: #51334ed6 !important;
+    }
+    
+    .zEWidget-launcher, .zEWidget-webWidget  {
+      left: 1% !important;
+      bottom: 20px !important;
+      margin: 0 !important;
+    }
+    
+    /* body.home .slider-products .owl-nav .owl-next, 
+    body.home .slider-products .owl-nav .owl-prev {
+        background-image: none !important;
+    }
+    body.home .slider-products .owl-nav .owl-next img, 
+    body.home .slider-products .owl-nav .owl-prev img {
+        display: block !important;
+    } */
+    
+    @media (max-width: 767px) {
+        .zEWidget-launcher, .zEWidget-webWidget  {
+            bottom: 1% !important;
+            left: 1% !important;
+        }
+    }
+</style><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ 
+  ga('create', 'UA-6097526-1', 'auto');
+  ga('send', 'pageview');
+</script><script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=d4a3ea79-3af1-4c4f-96c2-cf1967bf251e"></script><style>
+            .categoria ul {
+                flex-wrap: wrap;
+            }
+            
+            .breadcrumbs .container {
+                justify-content: left !important;
+            }
+            
+            ul.pages {
+                margin-top: 60px;
+            }
+            
+            .ico-add {
+                display: none !important;
+            }
+        </style><script language="javascript">var ___scriptPathTransac = '';</script><script language="javascript">var ___scriptPath = '';</script>
+<!-- Start - WebAnalyticsViewPart -->
+<script> var defaultUtmFromFolder = '';</script>
+<!-- CommerceContext.Current.VirtualFolder.Name: Busca -->
+
+<script>
+vtex.events.addData({"pageCategory":"InternalSiteSearch","pageDepartment":"Joias","pageUrl":"http://www.rommanel.com.br/joias/820252","pageTitle":"820252 em Joias – Rommanel","skuStockOutFromShelf":[],"skuStockOutFromProductDetail":[],"shelfProductIds":["82025200"],"accountName":"rommanel","pageFacets":["departmentId:25","categoriesFullPath:/25/","brandId:2000002","productClusterSearchableIds:1154","Material:Prata Maciça 925","Gênero:Feminino","Composição:Sem Pedra","Tema:Moderno","Estilo:Médio","Formato:Animais"],"siteSearchTerm":"820252","siteSearchForm":"/joias/820252","siteSearchCategory":"25","siteSearchResults":1});
+</script>
+
+<script>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                            '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                            })(window,document,'script','dataLayer','GTM-K5TTBB');
+</script>
+
+<script>
+var helper = new vtexTagManagerHelper('internalSiteSearchView'); helper.init();
+</script>
+
+<!-- End - WebAnalyticsViewPart -->
+<link rel="canonical" href="https://www.rommanel.com.br/joias/820252" /></head>
+  <body class="resultado-busca"><div class="ajax-content-loader" rel="/no-cache/callcenter/disclaimer"></div><div class="wrapper b2cteste"><style>
+    .header {
+        box-shadow: 0 1px 1px rgb(0 0 0 / 5%) !important;
+    }
+
+    .header .header__main {
+        background: white !important;
+    }
+
+    .logo {
+        background-image: url('/arquivos/logo-rommanel-roxo.png?v=638031966370330000') !important;
+    }
+
+    #info-header {
+        background-color: #b19cd9 !important;
+    }
+
+    #info-header a{
+        color: white !important;
+    }
+
+    .header .header__inner {
+        border: 0 !important;
+    }
+
+    .header__main a {
+        color: #51334e !important;
+    }
+.nav-mobile {
+    top: 129px !important;
+}
+.header {
+    top: 29px !important;
+}
+#info-header p.info{
+    font-size: 14px;
+    padding: 5px 0;
+    margin: 0 auto!important;
+}
+
+#info-header .container {
+    display: flex;
+    width: 1170px;
+    margin: auto;
+    padding: 0;
+}
+
+.info a {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.top-button {
+    padding: 0 8px;
+    background: white;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 14px;
+    font-weight: bold;
+    height: 29px;
+    text-align: center;
+    line-height: 26px;
+    border-radius: 0 20px 0 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .burger-menu span {
+        background: #4a2b46 !important;
+    }
+    #info-header p.info{
+        font-size: 12px!important;
+        line-height: 11px;
+        padding: 0 10px !important;
+        text-align: center;
+        max-width: 700px;
+        margin: auto;
+        width: 70%;
+        right: 0;
+        top: 0;
+        position: absolute;
+    }
+    .top-button {
+        font-size: 12px;
+    }
+}
+</style><style>
+    .whatsAppChat {
+        position: fixed;
+        bottom: 65px;
+        left: 30px;
+        width: fit-content;
+        z-index: 9999999;
+    }
+    .whatsAppChat img {
+        width: 48px;
+        height: 47px;
+    }
+
+    @media only screen and (max-width: 768px) {
+        .whatsAppChat {
+            bottom: 15px;
+        }
+    }
+</style>
+
+<script>
+    window.addEventListener('load', function() {
+        var whatsappChatIcon = document.querySelector('.whatsAppChat');
+        whatsappChatIcon.innerHTML = '<a href="https://api.whatsapp.com/send?phone=5511971483889&text=Oi, estou no site da Rommanel e preciso de uma ajuda" target="_blank"><img src="/arquivos/whatsAppChat_02.png?v=637757123225500000"></a>';        
+    });
+</script>
+
+<div class="whatsAppChat">
+</div><!-- ATENÇÃO, esse erro prejudica a performance do seu site, o conteudo de nome Script não foi renderizado por nao ser um XDocument válido, erro: - '=' is an unexpected token. The expected token is ';'. Line 24, position 102.--><style>
+    section.form-aviso-privacidade {
+        position: fixed;
+        bottom: 30px;
+        left: 0;
+        right: 0;
+        background: #9b87bb;
+        z-index: 999999999999!important;
+        display: block;
+        height: fit-content;
+        border-radius: 10px!important;
+        margin: auto !important;
+        width: fit-content;
+        padding: 10px;
+    }
+
+    .texto-aviso-privacidade {
+        padding: 16px;
+        color: #fff;
+        font-size: 14px!important;
+        text-align: center;
+        display: block;
+    }
+
+    a.link-aviso-privacidade {
+        color: white;
+        margin: 2px;
+    }
+
+    .form-botao-aviso-privacidade {
+        display: flex;
+        width: fit-content;
+        height: fit-content;
+        margin: auto;
+    }
+
+
+    button.botão-fechar {
+        background-color: initial;
+        border: 1px solid #fff;
+        width: 100px;
+        height: 35px;
+        border-radius: 3.7px;
+        font-size: 14.4px!important;
+        color: #fff;
+    }
+</style>
+
+
+<section class="form-aviso-privacidade hidden">
+    <div style="display: flex;">
+        <div>
+            <div class="texto-aviso-privacidade">Coletamos dados para melhorar o desempenho e segurança do site, além de personalizar conteúdo. Saíba mais em nosso <a href="https://www.rommanel.com.br/Institucional/aviso-de-privacidade" target="_blank" class="link-aviso-privacidade"><u>Aviso de Privacidade</u>.</a>
+            </div>
+        </div>
+        <div class="form-botao-aviso-privacidade">
+            <button type="button" class="botão-fechar" onclick="clearLgpd()"> Fechar </button>
+        </div>
+    </div>
+</section>
+
+<script>
+
+window.addEventListener('load', function() {
+
+    console.log('lgpd 2');
+    window.clearLgpd = function () {
+        const lgpdInfo = document.querySelector('.form-aviso-privacidade');
+        lgpdInfo.classList.add('hidden');
+        // document.cookie = "LGPD=true";
+        setCookie2('LGPD', true, 9999);
+    }
+
+    function getCookie(name) {
+      var nameEQ = name + "=";
+      var ca = document.cookie.split(';');
+      for (var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+      }
+      return null;
+    }
+
+    function setCookie2(cName, cValue, expDays) {
+        let date = new Date();
+        date.setTime(date.getTime() + (expDays * 24 * 60 * 60 * 1000));
+        const expires = "expires=" + date.toUTCString();
+        document.cookie = cName + "=" + cValue + "; " + expires + "; path=/";
+    }
+
+
+
+    const lgpdcookie = getCookie('LGPD') || null;
+    if (!lgpdcookie) {
+        const lgpdInfo = document.querySelector('.form-aviso-privacidade');
+        lgpdInfo.classList.remove('hidden');
+    }
+});
+</script><!-- ATENÇÃO, esse erro prejudica a performance do seu site, o conteudo de nome Conteudo não foi renderizado por nao ser um XDocument válido, erro: - Name cannot begin with the ' ' character, hexadecimal value 0x20. Line 77, position 26.--><div id="info-header" style="background: #7f5176;padding: 0 10px;position: fixed;top: 0;z-index: 999;width: 100%;height: 29px;display: flex;"><div class="container"><div class="top-button"><a href="https://loja.rommanel.com.br/Sistema/401" target="_blank" style="color: #b19cd9 !important;">Acesso dos Consultores</a></div><!-- <p class="info" style="text-align: center; max-width: 700px; margin: auto; color: #fff;">
+     Bailarina, elegância e sinfonia! <a href="https://www.rommanel.com.br/colecoes/bailarinas-2024"> Conheça.</a> 
+    </p> --></div></div><div class="nav-mobile visible-xs-block fff"><footer class="nav-mobile__foot"><a href="/fale-com-a-gente" class="nav-mobile__link"><span>Fale com a gente</span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 1219.547 1225.016" style="width: 20px; height: 20px; position: relative; top: 4px; left: 4px;"><path fill="#E0E0E0" d="M1041.858 178.02C927.206 63.289 774.753.07 612.325 0 277.617 0 5.232 272.298 5.098 606.991c-.039 106.986 27.915 211.42 81.048 303.476L0 1225.016l321.898-84.406c88.689 48.368 188.547 73.855 290.166 73.896h.258.003c334.654 0 607.08-272.346 607.222-607.023.056-162.208-63.052-314.724-177.689-429.463zm-429.533 933.963h-.197c-90.578-.048-179.402-24.366-256.878-70.339l-18.438-10.93-191.021 50.083 51-186.176-12.013-19.087c-50.525-80.336-77.198-173.175-77.16-268.504.111-278.186 226.507-504.503 504.898-504.503 134.812.056 261.519 52.604 356.814 147.965 95.289 95.36 147.728 222.128 147.688 356.948-.118 278.195-226.522 504.543-504.693 504.543z" /><linearGradient id="a" gradientUnits="userSpaceOnUse" x1="609.77" y1="1190.114" x2="609.77" y2="21.084"><stop offset="0" stop-color="#20b038" /><stop offset="1" stop-color="#60d66a" /></linearGradient><path fill="#51c761" d="M27.875 1190.114l82.211-300.18c-50.719-87.852-77.391-187.523-77.359-289.602.133-319.398 260.078-579.25 579.469-579.25 155.016.07 300.508 60.398 409.898 169.891 109.414 109.492 169.633 255.031 169.57 409.812-.133 319.406-260.094 579.281-579.445 579.281-.023 0 .016 0 0 0h-.258c-96.977-.031-192.266-24.375-276.898-70.5l-307.188 80.548z" /><image overflow="visible" opacity=".08" width="682" height="639" xlink:href="FCC0802E2AF8A915.png" transform="translate(270.984 291.372)" /><path fill-rule="evenodd" clip-rule="evenodd" fill="#FFF" d="M462.273 349.294c-11.234-24.977-23.062-25.477-33.75-25.914-8.742-.375-18.75-.352-28.742-.352-10 0-26.25 3.758-39.992 18.766-13.75 15.008-52.5 51.289-52.5 125.078 0 73.797 53.75 145.102 61.242 155.117 7.5 10 103.758 166.266 256.203 226.383 126.695 49.961 152.477 40.023 179.977 37.523s88.734-36.273 101.234-71.297c12.5-35.016 12.5-65.031 8.75-71.305-3.75-6.25-13.75-10-28.75-17.5s-88.734-43.789-102.484-48.789-23.75-7.5-33.75 7.516c-10 15-38.727 48.773-47.477 58.773-8.75 10.023-17.5 11.273-32.5 3.773-15-7.523-63.305-23.344-120.609-74.438-44.586-39.75-74.688-88.844-83.438-103.859-8.75-15-.938-23.125 6.586-30.602 6.734-6.719 15-17.508 22.5-26.266 7.484-8.758 9.984-15.008 14.984-25.008 5-10.016 2.5-18.773-1.25-26.273s-32.898-81.67-46.234-111.326z" /><path fill="#FFF" d="M1036.898 176.091C923.562 62.677 772.859.185 612.297.114 281.43.114 12.172 269.286 12.039 600.137 12 705.896 39.633 809.13 92.156 900.13L7 1211.067l318.203-83.438c87.672 47.812 186.383 73.008 286.836 73.047h.255.003c330.812 0 600.109-269.219 600.25-600.055.055-160.343-62.328-311.108-175.649-424.53zm-424.601 923.242h-.195c-89.539-.047-177.344-24.086-253.93-69.531l-18.227-10.805-188.828 49.508 50.414-184.039-11.875-18.867c-49.945-79.414-76.312-171.188-76.273-265.422.109-274.992 223.906-498.711 499.102-498.711 133.266.055 258.516 52 352.719 146.266 94.195 94.266 146.031 219.578 145.992 352.852-.118 274.999-223.923 498.749-498.899 498.749z" /></svg><i class="ico-pin-large" style="left: 7px;top: -1px;position: relative;"></i></a></footer><!-- /.nav-mobile__foot --></div><header class="header"><!--<div style="display:none;">--><!--    <vtex.cmc:userLogin/>--><!--</div>--><a href="#" class="burger-menu"><span></span><span></span><span></span></a><div class="header__main"><div class="shell"><a href="/" class="logo header__logo" style="top:45px; margin-top: -12px;">Rommanel</a><div class="search"><form action="?" method="get"><label for="q" class="hidden">Search</label><input type="search" name="q" id="q" value="" placeholder="Buscar" class="search__field" /><button type="submit" value="GO" class="search__btn"><i class="ico-search"></i></button></form></div><!-- /.search --><div style="width: 32%;"><a href="/fale-com-a-gente" class="hidden-xs" style="color: #fff;text-decoration: underline;position: relative;top: -10px;">Fale com a gente
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 1219.547 1225.016" style="width: 20px; height: 20px; position: relative; top: 6px; left: 4px;"><path fill="#E0E0E0" d="M1041.858 178.02C927.206 63.289 774.753.07 612.325 0 277.617 0 5.232 272.298 5.098 606.991c-.039 106.986 27.915 211.42 81.048 303.476L0 1225.016l321.898-84.406c88.689 48.368 188.547 73.855 290.166 73.896h.258.003c334.654 0 607.08-272.346 607.222-607.023.056-162.208-63.052-314.724-177.689-429.463zm-429.533 933.963h-.197c-90.578-.048-179.402-24.366-256.878-70.339l-18.438-10.93-191.021 50.083 51-186.176-12.013-19.087c-50.525-80.336-77.198-173.175-77.16-268.504.111-278.186 226.507-504.503 504.898-504.503 134.812.056 261.519 52.604 356.814 147.965 95.289 95.36 147.728 222.128 147.688 356.948-.118 278.195-226.522 504.543-504.693 504.543z" /><linearGradient id="a" gradientUnits="userSpaceOnUse" x1="609.77" y1="1190.114" x2="609.77" y2="21.084"><stop offset="0" stop-color="#20b038" /><stop offset="1" stop-color="#60d66a" /></linearGradient><path fill="#51c761" d="M27.875 1190.114l82.211-300.18c-50.719-87.852-77.391-187.523-77.359-289.602.133-319.398 260.078-579.25 579.469-579.25 155.016.07 300.508 60.398 409.898 169.891 109.414 109.492 169.633 255.031 169.57 409.812-.133 319.406-260.094 579.281-579.445 579.281-.023 0 .016 0 0 0h-.258c-96.977-.031-192.266-24.375-276.898-70.5l-307.188 80.548z" /><image overflow="visible" opacity=".08" width="682" height="639" xlink:href="FCC0802E2AF8A915.png" transform="translate(270.984 291.372)" /><path fill-rule="evenodd" clip-rule="evenodd" fill="#FFF" d="M462.273 349.294c-11.234-24.977-23.062-25.477-33.75-25.914-8.742-.375-18.75-.352-28.742-.352-10 0-26.25 3.758-39.992 18.766-13.75 15.008-52.5 51.289-52.5 125.078 0 73.797 53.75 145.102 61.242 155.117 7.5 10 103.758 166.266 256.203 226.383 126.695 49.961 152.477 40.023 179.977 37.523s88.734-36.273 101.234-71.297c12.5-35.016 12.5-65.031 8.75-71.305-3.75-6.25-13.75-10-28.75-17.5s-88.734-43.789-102.484-48.789-23.75-7.5-33.75 7.516c-10 15-38.727 48.773-47.477 58.773-8.75 10.023-17.5 11.273-32.5 3.773-15-7.523-63.305-23.344-120.609-74.438-44.586-39.75-74.688-88.844-83.438-103.859-8.75-15-.938-23.125 6.586-30.602 6.734-6.719 15-17.508 22.5-26.266 7.484-8.758 9.984-15.008 14.984-25.008 5-10.016 2.5-18.773-1.25-26.273s-32.898-81.67-46.234-111.326z" /><path fill="#FFF" d="M1036.898 176.091C923.562 62.677 772.859.185 612.297.114 281.43.114 12.172 269.286 12.039 600.137 12 705.896 39.633 809.13 92.156 900.13L7 1211.067l318.203-83.438c87.672 47.812 186.383 73.008 286.836 73.047h.255.003c330.812 0 600.109-269.219 600.25-600.055.055-160.343-62.328-311.108-175.649-424.53zm-424.601 923.242h-.195c-89.539-.047-177.344-24.086-253.93-69.531l-18.227-10.805-188.828 49.508 50.414-184.039-11.875-18.867c-49.945-79.414-76.312-171.188-76.273-265.422.109-274.992 223.906-498.711 499.102-498.711 133.266.055 258.516 52 352.719 146.266 94.195 94.266 146.031 219.578 145.992 352.852-.118 274.999-223.923 498.749-498.899 498.749z" /></svg><i class="ico-pin-large" style="position: relative; top: 0; left: 7px;"></i></a></div><div class="nav-utilities hidden-xs" style="    position: absolute;right: 24%;margin-top: 65px;"><ul><li><a href="/checkout/#/cart" class="bag _hidden"><i class="ico-bag"></i><span>0</span></a></li></ul></div><div class="nav-utilities visible-xs-block"><ul><li><a href="/checkout/#/cart" class="bag _hidden"><i class="ico-bag"></i><span>0</span></a></li></ul></div></div><!-- /.shell --></div><!-- /.header__main --><div class="header__inner"><div class="shell"><div class="header__content"><nav class="nav" style="text-align:left;"><ul><li><a href="/joias">Joias</a><div class="dropdown dropdown--alt"><div class="shell"><ul><li><a href="/joias/anel%20solitario?O=OrderByReleaseDateDESC"><img src="/arquivos/372-2-sub_menu-solitarios.jpg?v=637205738081670000" alt="" /><strong>Solitários</strong></a></li><li><a href="/joias/alianca?O=OrderByReleaseDateDESC"><img src="/arquivos/372-2-sub_menu-aliancas.jpg?v=637205738021400000" alt="" /><strong>Alianças</strong></a></li><li><a href="/joias/aneis?O=OrderByReleaseDateDESC"><img src="/arquivos/372-2-sub_menu-aneis.jpg?v=637205738032030000" alt="" /><strong>Anéis</strong></a></li><li><a href="/joias/brincos?O=OrderByReleaseDateDESC"><img src="/arquivos/372-2-sub_menu-brincos.jpg?v=637205738041270000" alt="" /><strong>Brincos</strong></a></li><li><a href="/joias/colares-e-correntes?O=OrderByReleaseDateDESC"><img src="/arquivos/372-2-sub_menu-colaresecorrentes.jpg?v=637205738052400000" alt="" /><strong>Colares E correntes</strong></a></li><li><a href="/joias/pulseiras?O=OrderByReleaseDateDESC"><img src="/arquivos/372-2-sub_menu-pulseiras.jpg?v=637205738072570000" alt="" /><strong>Pulseiras</strong></a></li><li><a href="/joias/pingentes?O=OrderByReleaseDateDESC"><img src="/arquivos/372-2-sub_menu-pingentes.jpg?v=637205738062100000" alt="" /><strong>Pingentes</strong></a></li></ul><div class="dropdown__actions"><a href="" class="link-icon link-icon--right link--chevron"><!--<span>VER TODAS</span>--></a></div><!-- /.dropdown__actions --></div><!-- /.shell --></div><!-- /.dropdown --></li><li class="has-dropdown has-dd colecoes-dropdown"><a href="/colecoes">Coleções</a><ul class="nav__dropdown"><li><a href="/colecoes/capsula-sol-movimento" class="link--chevron-before">Sol e Movimento</a></li><li><a href="/colecoes/disney-moana" class="link--chevron-before">Disney Moana 2</a></li><li><a href="/colecoes/disney-mufasa" class="link--chevron-before">Disney Mufasa</a></li><li><a href="/colecoes/esplendida" class="link--chevron-before">Esplêndida</a></li><li><a href="/colecoes/gio-stravaganza" class="link--chevron-before">Stravaganza</a></li><li><a href="/colecoes/ah-caminhos" class="link--chevron-before">Caminhos</a></li><li><a href="/colecoes/pet" class="link--chevron-before">Medalhas Pet</a></li><li><a href="/colecoes/relogios" class="link--chevron-before">Relógios</a></li><div class="dropdown__actions hidden-xs" style="text-align:left;"><a href="/colecoes" class="link-icon link-icon--right link--chevron" style="text-decoration: none;"><span>VER TODAS</span></a></div><!-- /.dropdown__actions --></ul><div class="dropdown__actions" style="display:none;"><a href="/colecoes" class="link-icon link-icon--right link--chevron"><span>VER TODAS</span></a></div><!-- /.dropdown__actions --></li><li><a href="/Institucional/quem-somos">Quem Somos</a><ul class="nav__dropdown"><li><a href="/Institucional/quem-somos">Sobre Nós</a></li><li><a href="/Institucional/garantia">Qualidade</a></li></ul></li><li><a href="/quero-comprar">Quero Comprar</a><ul class="nav__dropdown"><li><a href="https://loja.rommanel.com.br">Já sou Consultor</a></li><!-- li>
+                                <a href="https://revenda.rommanel.com.br">Quero revender</a>
+                            </li --><li><a href="/Institucional/cadastro">Sou Consumidor</a></li></ul></li><li><a href="https://revenda.rommanel.com.br">Como Revender</a></li><li style="position: relative;padding: 0 !important;"><a href="https://meumundoweb.rommanel.com.br" target="_blank" style="text-decoration: underline; font-size: 16px;padding: 17px 0 16px!important;display: block;"><img src="/arquivos/cadeado-light.png?v=636911095486770000" style="width: 13px;margin-right: 8px;position: relative;top: -1px;" />Área dos Consultores
+                            <!--<span style="font-size: 10px;position: absolute;left: 50%;margin-left: -25px;bottom: 2px;">Área Exclusiva</span>--></a></li><!--<li>
+                        <a href="/35-anos">35 Anos</a>
+                    </li>--></ul></nav><!-- /.nav --></div><!-- /.header__content --></div><!-- /.shell --></div><!-- /.header__inner --></header><div class="main main--border"><div class="breadcrumbs"><div class="container"><div style="display: none">
+<script type="text/javascript" language="javascript">
+    $(document).ready(function() {
+        partialSearchUrl = '/busca?fq=C%3a%2f25%2f&ft=820252&PS=50&';
+    });
+</script>
+<div class="navigation-tabs">    <div class="menu-departamento">        <span class="rt"></span><span class="rb"></span>        <div>            <div class="menu-navegue">                <a title="Navegue" class="search-navigator-tab tab-navegue-ativo" href="#">Navegar</a>                <a title="Refinar Resultado" class="search-navigator-tab tab-refinar" href="#">Refinar Resultado</a>            </div><div class="search-multiple-navigator" style="display: none;" ><h3 class="joias"><span></span><a href="https://www.rommanel.com.br/joias" title="Joias">Joias</a></h3>
+<h4 class="joias"><span></span><a href="https://www.rommanel.com.br/joias" title="Joias">Joias</a></h4>
+<a title="Refinar Resultado" class="bt-refinar search-filter-button even" href="#">Refinar Resultado</a><fieldset class="refino even Folheados">
+<h5 class="  even Folheados">Material</h5>
+<div class="">
+<label><input rel="fq=specificationFilter_1139:Prata+Maci%c3%a7a+925" class="multi-search-checkbox" type="checkbox" name="Prata+Maci%c3%a7a+925" value="Prata Maci&#231;a 925"/>Prata Maci&#231;a 925 (1)</label></div></fieldset><fieldset class="refino Folheados">
+<h5 class="  Folheados">Gênero</h5>
+<div class="">
+<label><input rel="fq=specificationFilter_1140:Feminino" class="multi-search-checkbox" type="checkbox" name="Feminino" value="Feminino"/>Feminino (1)</label></div></fieldset><fieldset class="refino even Folheados">
+<h5 class="  even Folheados">Composição</h5>
+<div class="">
+<label><input rel="fq=specificationFilter_1142:Sem+Pedra" class="multi-search-checkbox" type="checkbox" name="Sem+Pedra" value="Sem Pedra"/>Sem Pedra (1)</label></div></fieldset><fieldset class="refino Folheados">
+<h5 class="  Folheados">Tema</h5>
+<div class="">
+<label><input rel="fq=specificationFilter_1151:Moderno" class="multi-search-checkbox" type="checkbox" name="Moderno" value="Moderno"/>Moderno (1)</label></div></fieldset><fieldset class="refino even Folheados">
+<h5 class="  even Folheados">Estilo</h5>
+<div class="">
+<label><input rel="fq=specificationFilter_1145:M%c3%a9dio" class="multi-search-checkbox" type="checkbox" name="M%c3%a9dio" value="M&#233;dio"/>M&#233;dio (1)</label></div></fieldset><fieldset class="refino Folheados">
+<h5 class="  Folheados">Formato</h5>
+<div class="">
+<label><input rel="fq=specificationFilter_1147:Animais" class="multi-search-checkbox" type="checkbox" name="Animais" value="Animais"/>Animais (1)</label></div></fieldset></div><div class="search-single-navigator" style="display:block"><h3 class="joias"><span></span>Joias</h3><ul class="productClusterSearchableIds " >
+<li ><a href="https://www.rommanel.com.br/joias/1154/820252?PS=50&map=c,productClusterSearchableIds,ft" title="Prata 925">Prata 925 (1)</a></li>
+<li class="last"><a href="https://www.rommanel.com.br/joias/1608/820252?PS=50&map=c,productClusterSearchableIds,ft" title="Disney Mufasa">Disney Mufasa (1)</a></li>
+</ul>
+<h4 class="joias even"><a href="https://www.rommanel.com.br/joias/brincos/820252?PS=50" title="Brincos">Brincos (1)</a></h4>
+<ul class="brincos even">
+</ul>
+<h5 class="Hide even Folheados HideMaterial">Material</h5>
+<ul class="Material  even Folheados" >
+<li class="last"><a href="https://www.rommanel.com.br/joias/Prata Maciça 925/820252?PS=50&map=c,specificationFilter_1139,ft" title="Prata Maciça 925">Prata Maciça 925 (1)</a></li>
+</ul><h5 class="Hide Folheados HideGenero">Gênero</h5>
+<ul class="Gênero  Folheados" >
+<li class="last"><a href="https://www.rommanel.com.br/joias/Feminino/820252?PS=50&map=c,specificationFilter_1140,ft" title="Feminino">Feminino (1)</a></li>
+</ul><h5 class="Hide even Folheados HideComposicao">Composição</h5>
+<ul class="Composição  even Folheados" >
+<li class="last"><a href="https://www.rommanel.com.br/joias/Sem Pedra/820252?PS=50&map=c,specificationFilter_1142,ft" title="Sem Pedra">Sem Pedra (1)</a></li>
+</ul><h5 class="Hide Folheados HideTema">Tema</h5>
+<ul class="Tema  Folheados" >
+<li class="last"><a href="https://www.rommanel.com.br/joias/Moderno/820252?PS=50&map=c,specificationFilter_1151,ft" title="Moderno">Moderno (1)</a></li>
+</ul><h5 class="Hide even Folheados HideEstilo">Estilo</h5>
+<ul class="Estilo  even Folheados" >
+<li class="last"><a href="https://www.rommanel.com.br/joias/Médio/820252?PS=50&map=c,specificationFilter_1145,ft" title="Médio">Médio (1)</a></li>
+</ul><h5 class="Hide Folheados HideFormato">Formato</h5>
+<ul class="Formato  Folheados" >
+<li class="last"><a href="https://www.rommanel.com.br/joias/Animais/820252?PS=50&map=c,specificationFilter_1147,ft" title="Animais">Animais (1)</a></li>
+</ul></div>        </div>    </div></div><div class="urlLastSearch" style="display:none">http://www.rommanel.com.br/joias/820252</div></div><div class="bread-crumb">
+<ul>
+<li><a title="Rommanel" href="/">Rommanel</a></li>
+<li><a title="Joias" href="https://www.rommanel.com.br/joias">Joias</a></li><li class="last"><strong><a title="820252" href="https://www.rommanel.com.br/joias/820252?PS=50">Busca: 820252</a> &nbsp;&nbsp;&nbsp;<a class='busca-texto-livre-elimina'  title="Clique para eliminar o texto livre da busca" href="https://www.rommanel.com.br/joias?PS=50">x</a> </strong></li></ul>
+</div>
+</div><!-- /.shell --></div><!-- /.breadcrumbs --><div class="container"><div class="sidebar-overlay"></div><aside class="sidebar"><span style="float: right;padding: 15px 10px;font-size: 24px;position: absolute;right: 0;top: 0;" onclick="$('.sidebar-overlay').hide();$('.sidebar').hide();$('.header').css('z-index','101')" class="visible-xs-block">x</span><h4>Filtrar</h4><!--<vtex.cmc:advancedSearchFilter/>-->
+<script type="text/javascript" language="javascript">
+    $(document).ready(function() {
+        partialSearchUrl = '/busca?fq=C%3a%2f25%2f&ft=820252&PS=50&';
+    });
+</script>
+<div class="navigation-tabs">    <div class="menu-departamento">        <span class="rt"></span><span class="rb"></span>        <div>            <div class="menu-navegue">                <a title="Navegue" class="search-navigator-tab tab-navegue-ativo" href="#">Navegar</a>                <a title="Refinar Resultado" class="search-navigator-tab tab-refinar" href="#">Refinar Resultado</a>            </div><div class="search-multiple-navigator" style="display: none;" ><h3 class="joias"><span></span><a href="https://www.rommanel.com.br/joias" title="Joias">Joias</a></h3>
+<h4 class="joias"><span></span><a href="https://www.rommanel.com.br/joias" title="Joias">Joias</a></h4>
+<a title="Refinar Resultado" class="bt-refinar search-filter-button even" href="#">Refinar Resultado</a><fieldset class="refino even Folheados">
+<h5 class="  even Folheados">Material</h5>
+<div class="">
+<label><input rel="fq=specificationFilter_1139:Prata+Maci%c3%a7a+925" class="multi-search-checkbox" type="checkbox" name="Prata+Maci%c3%a7a+925" value="Prata Maci&#231;a 925"/>Prata Maci&#231;a 925 (1)</label></div></fieldset><fieldset class="refino Folheados">
+<h5 class="  Folheados">Gênero</h5>
+<div class="">
+<label><input rel="fq=specificationFilter_1140:Feminino" class="multi-search-checkbox" type="checkbox" name="Feminino" value="Feminino"/>Feminino (1)</label></div></fieldset><fieldset class="refino even Folheados">
+<h5 class="  even Folheados">Composição</h5>
+<div class="">
+<label><input rel="fq=specificationFilter_1142:Sem+Pedra" class="multi-search-checkbox" type="checkbox" name="Sem+Pedra" value="Sem Pedra"/>Sem Pedra (1)</label></div></fieldset><fieldset class="refino Folheados">
+<h5 class="  Folheados">Tema</h5>
+<div class="">
+<label><input rel="fq=specificationFilter_1151:Moderno" class="multi-search-checkbox" type="checkbox" name="Moderno" value="Moderno"/>Moderno (1)</label></div></fieldset><fieldset class="refino even Folheados">
+<h5 class="  even Folheados">Estilo</h5>
+<div class="">
+<label><input rel="fq=specificationFilter_1145:M%c3%a9dio" class="multi-search-checkbox" type="checkbox" name="M%c3%a9dio" value="M&#233;dio"/>M&#233;dio (1)</label></div></fieldset><fieldset class="refino Folheados">
+<h5 class="  Folheados">Formato</h5>
+<div class="">
+<label><input rel="fq=specificationFilter_1147:Animais" class="multi-search-checkbox" type="checkbox" name="Animais" value="Animais"/>Animais (1)</label></div></fieldset></div><div class="search-single-navigator" style="display:block"><h3 class="joias"><span></span>Joias</h3><ul class="productClusterSearchableIds " >
+<li ><a href="https://www.rommanel.com.br/joias/1154/820252?PS=50&map=c,productClusterSearchableIds,ft" title="Prata 925">Prata 925 (1)</a></li>
+<li class="last"><a href="https://www.rommanel.com.br/joias/1608/820252?PS=50&map=c,productClusterSearchableIds,ft" title="Disney Mufasa">Disney Mufasa (1)</a></li>
+</ul>
+<h4 class="joias even"><a href="https://www.rommanel.com.br/joias/brincos/820252?PS=50" title="Brincos">Brincos (1)</a></h4>
+<ul class="brincos even">
+</ul>
+<h5 class="Hide even Folheados HideMaterial">Material</h5>
+<ul class="Material  even Folheados" >
+<li class="last"><a href="https://www.rommanel.com.br/joias/Prata Maciça 925/820252?PS=50&map=c,specificationFilter_1139,ft" title="Prata Maciça 925">Prata Maciça 925 (1)</a></li>
+</ul><h5 class="Hide Folheados HideGenero">Gênero</h5>
+<ul class="Gênero  Folheados" >
+<li class="last"><a href="https://www.rommanel.com.br/joias/Feminino/820252?PS=50&map=c,specificationFilter_1140,ft" title="Feminino">Feminino (1)</a></li>
+</ul><h5 class="Hide even Folheados HideComposicao">Composição</h5>
+<ul class="Composição  even Folheados" >
+<li class="last"><a href="https://www.rommanel.com.br/joias/Sem Pedra/820252?PS=50&map=c,specificationFilter_1142,ft" title="Sem Pedra">Sem Pedra (1)</a></li>
+</ul><h5 class="Hide Folheados HideTema">Tema</h5>
+<ul class="Tema  Folheados" >
+<li class="last"><a href="https://www.rommanel.com.br/joias/Moderno/820252?PS=50&map=c,specificationFilter_1151,ft" title="Moderno">Moderno (1)</a></li>
+</ul><h5 class="Hide even Folheados HideEstilo">Estilo</h5>
+<ul class="Estilo  even Folheados" >
+<li class="last"><a href="https://www.rommanel.com.br/joias/Médio/820252?PS=50&map=c,specificationFilter_1145,ft" title="Médio">Médio (1)</a></li>
+</ul><h5 class="Hide Folheados HideFormato">Formato</h5>
+<ul class="Formato  Folheados" >
+<li class="last"><a href="https://www.rommanel.com.br/joias/Animais/820252?PS=50&map=c,specificationFilter_1147,ft" title="Animais">Animais (1)</a></li>
+</ul></div>        </div>    </div></div><div class="urlLastSearch" style="display:none">http://www.rommanel.com.br/joias/820252</div></aside><!-- /.sidebar --><div class="content"><div class="section"><header class="section__head"><h3><h2 class="titulo-sessao">Resultado da Busca</h2></h3><span class="message-price">* Preços sugerido à vista ao consumidor em lojas Rommanel, podendo haver variações conforme a região.</span></header><!-- /.section__head --><div class="section__body"><div class="products"><div class="products__meta"><div class="products__meta__aside"><div class="select-alt visible-xs-inline-block"><label for="select-filter" class="select__label">Filtrar</label><select name="filter" id="select-filter"><option value="Filter 1">Filter 1</option><option value="Filter 2">Filter 2</option></select></div><!-- /.select --><div class="select-alt"><label for="select-order" class="select__label">Ordenar por:</label><select name="order" id="select-order"><option value="">Escolha</option><option value="OrderByPriceASC">Menor preço</option><option value="OrderByPriceDESC">Maior preço</option><option value="OrderByTopSaleDESC">Mais vendidos</option><option value="OrderByReviewRateDESC">Melhores avaliados</option><option value="OrderByNameASC">A-Z</option><option value="OrderByNameDESC">Z-A</option><option value="OrderByReleaseDateDESC">Data de lançamento</option><option value="OrderByBestDiscountDESC">Melhor desconto</option></select></div><!-- /.select --></div><!-- /.products__meta__aside --><div class="products__meta__content"><span class="visible-xs-block" onclick="$('.sidebar-overlay').show();$('.sidebar').show();$('.header').css('z-index','0');" style="float: right;position: relative;top: -4px;"><img src="/arquivos/ico-filter.png?v=636759912105830000" style="width: 18px;" /></span><!-- p>Modo de visualização<p --><!-- ul class="list-visualize">
+										<li>
+											<div class="radio mode-grid">
+												<input type="radio" name="visual" id="field-blocks" value="blocks" checked="checked" />
+
+												<label for="field-blocks">
+													Blocks
+
+													<i class="ico-blocks-purple"></i>
+													<i class="ico-blocks-grey"></i>
+
+													<i class="ico-blocks-purple-large"></i>
+													<i class="ico-blocks-grey-large"></i>
+												</label>
+											</div>
+										</li>
+
+										<li>
+											<div class="radio mode-list">
+												<input type="radio" name="visual" id="field-list" value="list" />
+
+												<label for="field-list">
+													List
+
+													<i class="ico-list-grey"></i>
+													<i class="ico-list-purple"></i>
+
+													<i class="ico-list-grey-large"></i>
+													<i class="ico-list-purple-large"></i>
+												</label>
+											</div>
+										</li>
+									</ul --><!-- /.list-radios --></div><!-- /.products__meta__content --></div><!-- /.products__meta --><div class="js-list"><div class="products__inner"><div class="table-products"></div><!-- /.table --></div><!-- /.products__inner --></div><!-- /.js-list --><div class="js-blocks"><div class="products__inner"><div class="main"><p class="searchResultsTime"><span class="resultado-busca-numero"><span class="label">Produtos encontrados:</span> <span class="value">1</span></span><span class="resultado-busca-termo"> <span class="label">Resultado da Pesquisa por:</span> <strong class="value">820252</strong></span><span class="resultado-busca-tempo"> <span class="label">em</span> <span class="value">3 ms</span></span></p><div class="sub"><div class="resultado-busca-filtro">
+<fieldset class="orderBy">
+<label>Ordenar por:</label>
+<select id="O" onchange="window.location.href= '/joias/820252?PS=50&' + 'O=' + this.options[this.selectedIndex].value">
+<option  value="">Selecione</option>
+<option  value="OrderByPriceASC">Menor Preço</option>
+<option  value="OrderByPriceDESC">Maior Preço</option>
+<option  value="OrderByTopSaleDESC">Mais vendidos</option>
+<option  value="OrderByReviewRateDESC">Melhores avaliações</option>
+<option  value="OrderByNameASC">A - Z</option>
+<option  value="OrderByNameDESC">Z - A</option>
+<option  value="OrderByReleaseDateDESC">Data de lançamento</option>
+<option  value="OrderByBestDiscountDESC">Melhor Desconto</option>
+</select>
+</fieldset>
+<fieldset class="filterBy">
+Itens por página:
+<select id="PS" onchange="window.location.href= '/joias/820252?' + 'PS=' + this.options[this.selectedIndex].value">
+<option selected="selected" value="50">50</option>
+<option  value="100">100</option>
+<option  value="150">150</option>
+<option  value="200">200</option>
+</select>
+</fieldset>
+<p class="compare">Produtos selecionados para comparar: <strong><span class="compare-selection-count" id="NumeroSuperior">0</span></strong><a title="Comparar" class="btn-comparar" href="#">Comparar</a></p></div></div><div class="vitrine resultItemsWrapper">
+            <script type='text/javascript'>
+            var pagecount_21041849;
+            $(document).ready(function () {
+                pagecount_21041849 = 1;
+                $('#PagerTop_21041849').pager({ pagenumber: 1, pagecount: pagecount_21041849, buttonClickCallback: PageClick_21041849 });
+                $('#PagerBottom_21041849').pager({ pagenumber: 1, pagecount: pagecount_21041849, buttonClickCallback: PageClick_21041849 });
+                if (window.location.hash != '') PageClick_21041849(window.location.hash.replace(/\#/, ''));
+            });
+            PageClick_21041849 = function(pageclickednumber) {
+                window.location.hash = pageclickednumber;
+                $('#ResultItems_21041849').load('/buscapagina?fq=C%3a%2f25%2f&ft=820252&PS=50&sl=8eb4abe0-1b3c-4ec9-9383-4616e5c2e97e&cc=90&sm=0&PageNumber=' + pageclickednumber,
+                    function() {
+                        $('#PagerTop_21041849').pager({ pagenumber: pageclickednumber, pagecount: pagecount_21041849, buttonClickCallback: PageClick_21041849 });
+                        $('#PagerBottom_21041849').pager({ pagenumber: pageclickednumber, pagecount: pagecount_21041849, buttonClickCallback: PageClick_21041849 });
+                    bindQuickView();
+                });
+            }</script><div class="pager top" id="PagerTop_21041849"></div><div id="ResultItems_21041849" class="categoria"><div class="categoria n1colunas"><ul><li layout="8eb4abe0-1b3c-4ec9-9383-4616e5c2e97e" class="semi-joias-rommanel last">
+
+    <div class="content-shelf teste" id="82025200">
+        <a href="https://www.rommanel.com.br/brinco-mufasa-3d-de-prata-925--82025200/p">
+            <div class="product__image">
+                <img src="https://rommanel.vteximg.com.br/arquivos/ids/6754118-800-800/TAM.jpg?v=638693507881000000" width="800" height="800" alt="TAM.UNICO-8202520000-1" id="" />
+                <span style="display: none"><img src="/arquivos/ring1.jpg?v=636340710321000000" alt=""></span>
+            </div><!-- /.product__image -->
+        
+            <h5 class="product__title">
+            BRINCO MUFASA 3D DE PRATA 925
+            </h5><!-- /.product__title -->
+            
+            <span class="codProduto">Cód.</span>
+            
+            <span class="product__colecao"></span>
+            <div class="product__rating rating rating--3">
+                <vtex.cmc:evaluationRate/>
+            </div>
+            
+        </a>
+                                <div class="holder">
+                <span class="notLogged">*</span>
+                <span class="romma-tolltip" tooltip="* Preço à vista sugerido ao consumidor em lojas de varejo, podendo haver variações conforme a região." flow="down">
+                    <p class="product__price comTool3">
+                        <span class="product-price-prateleira blyat">
+                            R$ 379,00
+                        </span>
+                    </p><!-- /.product__price -->
+                </span>
+            </div>
+            <div class="product_share" style="display: flex;width: fit-content !important;text-align: center;padding-top: 20px;margin: auto auto 20px auto; color: #7f7f7f;">
+                Compartilhe agora
+                <a href="https://api.whatsapp.com/send?text=Olá! Estou compartilhando esse produto que vi no site da Rommanel: https://www.rommanel.com.br/brinco-mufasa-3d-de-prata-925--82025200/p" id="whats-share" class="whats-share" style="margin-left: 8px;"><img src="/arquivos/whatsapp_logo_icon_04.png?v=637988635487770000" style="width: 25px;"/></a>
+            </div>
+            <a href="https://www.rommanel.com.br/brinco-mufasa-3d-de-prata-925--82025200/p" class="btn btn--smaller btn--green product_category">Ver mais<i class="ico-add"></i>
+                <div style="display:none" class='btn-buy-bottom'><div class="buy-button-normal" id="54159" name="54159"><a class="buy-button-normal-a54159" href="https://www.rommanel.com.br/checkout/cart/add?sku=54159&qty=1&seller=1&sc=2&price=37900&cv=_&sc=2" title="Comprar">Comprar</a><input type="hidden" value="cart" class="buy-button-normal-go-to-cart-54159" /></div></div>
+            </a>
+            </div><!-- /.product -->
+</li><li id="helperComplement_82025200" style="display:none" class="helperComplement"></li></ul></div></div><div class="pager bottom" id="PagerBottom_21041849"></div></div><p class="searchResultsTime"><span class="resultado-busca-numero"><span class="label">Produtos encontrados:</span> <span class="value">1</span></span><span class="resultado-busca-termo"> <span class="label">Resultado da Pesquisa por:</span> <strong class="value">820252</strong></span><span class="resultado-busca-tempo"> <span class="label">em</span> <span class="value">3 ms</span></span></p><div class="sub"><div class="resultado-busca-filtro">
+<fieldset class="orderBy">
+<label>Ordenar por:</label>
+<select id="O" onchange="window.location.href= '/joias/820252?PS=50&' + 'O=' + this.options[this.selectedIndex].value">
+<option  value="">Selecione</option>
+<option  value="OrderByPriceASC">Menor Preço</option>
+<option  value="OrderByPriceDESC">Maior Preço</option>
+<option  value="OrderByTopSaleDESC">Mais vendidos</option>
+<option  value="OrderByReviewRateDESC">Melhores avaliações</option>
+<option  value="OrderByNameASC">A - Z</option>
+<option  value="OrderByNameDESC">Z - A</option>
+<option  value="OrderByReleaseDateDESC">Data de lançamento</option>
+<option  value="OrderByBestDiscountDESC">Melhor Desconto</option>
+</select>
+</fieldset>
+<fieldset class="filterBy">
+Itens por página:
+<select id="PS" onchange="window.location.href= '/joias/820252?' + 'PS=' + this.options[this.selectedIndex].value">
+<option selected="selected" value="50">50</option>
+<option  value="100">100</option>
+<option  value="150">150</option>
+<option  value="200">200</option>
+</select>
+</fieldset>
+<p class="compare">Produtos selecionados para comparar: <strong><span class="compare-selection-count" id="NumeroSuperior">0</span></strong><a title="Comparar" class="btn-comparar" href="#">Comparar</a></p></div></div></div><!-- 380242c3-6b68-4b97-ac3a-4d0aac04394b --></div><!-- /.products__inner --></div><!-- /.js-blocks --><!--
+                                <div class="products__paging paging">
+                                    <a href="#" class="paging-prev"></a>
+    
+                                    <ol>
+                                        <li class="current">
+                                            <a href="#">1</a>
+                                        </li>
+    
+                                        <li>
+                                            <a href="#">2</a>
+                                        </li>
+    
+                                        <li>
+                                            <a href="#">3</a>
+                                        </li>
+    
+                                        <li>
+                                            <a href="#">4</a>
+                                        </li>
+    
+                                        <li>
+                                            <a href="#">5</a>
+                                        </li>
+    
+                                        <li>
+                                            <a href="#">6</a>
+                                        </li>
+                                    </ol>
+    
+                                    <a href="#" class="paging-next"></a>
+                                </div>
+                            --></div><!-- /.products --></div><!-- /.section__body --></div><!-- /.section --></div><!-- /.content --></div><!-- /.container --></div><footer class="footer"><div class="shell"><style>
+                    .footer__cols.f5 .footer__col h5 {
+                        font-size: 16px;
+                        font-weight: bold;
+                    }
+                    .footer__cols.f5 .footer__col {
+                        flex: 0 0 24%;
+                        margin-top: 50px;
+                    }
+                    .footer__cols .footer__col .list-links a{
+                        opacity: .7 !important;
+                        font-size: 15px!important;
+                    }
+                </style><div class="footer__inner"><div class="footer__cols"><div class="footer__col"><div class="footer__row"><div class="logo-large footer__logo">Rommanel</div></div></div><div class="footer__col"><div class="footer__row"><div class="socials footer__socials"><ul><li><a href="https://www.facebook.com/RommanelOficial/" target="_blank"><i class="ico-facebook-large">Facebook</i></a></li><li><a href="https://www.instagram.com/rommanel" target="_blank"><i class="ico-instagram-large">Instargam</i></a></li><li><a href="https://twitter.com/rommanel" target="_blank"><i class="ico-twitter-large">Twitter</i></a></li><li><a target="_blank" href="https://www.youtube.com/user/RommanelRedesSociais"><i class="ico-youtube-large">Youtube</i></a></li></ul></div><!-- /.socials --></div></div><div class="footer__col"><div class="footer__row"><ul class="list-payment footer__list-alt hidden-xs" style="opacity: 0;"><li><a href="#"><img src="/arquivos/visa.png?v=636340709897770000" class="hidden-xs" alt="" /><img src="/arquivos/visa-mobile.png?v=636340709889000000" class="visible-xs-block" alt="" /></a></li><li><a href="#"><img src="/arquivos/master.png?v=636340710577700000" class="hidden-xs" alt="" /><img src="/arquivos/mastercard-mobile.png?v=636340710568070000" class="visible-xs-block" alt="" /></a></li><li><a href="#"><img src="/arquivos/amex.png?v=636340709320870000" class="hidden-xs" alt="" /><img src="/arquivos/amex-mobile.png?v=636340709328170000" class="visible-xs-block" alt="" /></a></li><li><a href="#"><img src="/arquivos/diners.png?v=636340710677730000" class="hidden-xs" alt="" /><img src="/arquivos/diners-mobile.png?v=636340710667770000" class="visible-xs-block" alt="" /></a></li></ul><!-- /.list-payment --></div></div></div><div class="footer__cols f5"><div class="footer__col"><div class="footer__row"><h5>Dúvidas</h5><ul class="list-links"><li><a href="https://rommanel.zendesk.com/hc/pt-br">Perguntas Frequentes</a></li><li><a href="https://www.rommanel.com.br/Institucional/garantia">Garantia</a></li><li><a href="https://www.rommanel.com.br/Institucional/garantia">Cuidado
+                                        com a peça</a></li><li><a href="/institucional/guia-de-medidas">Guia de Medidas</a></li></ul><!-- /.list-links --></div></div><div class="footer__col"><div class="footer__row"><h5>Atendimento</h5><ul class="list-links"><li><a href="https://rommanel.zendesk.com/hc/pt-br/requests/new">Fale Conosco</a></li><li><a href="/Institucional/encontre-uma-loja">Encontre nossas lojas</a></li><li><a href="/vendas-corporativas">Vendas Corporativas</a></li></ul><!-- /.list-links --></div></div><div class="footer__col"><div class="footer__row"><h5>Meu Mundo Rommanel</h5><ul class="list-links"><li><a href="/tenha-seu-proprio-negocio">Seja um
+                                        Consultor</a></li><li><a href="https://login.rommanel.com.br/account/login">Academia Rommanel</a></li><li><a href="http://loja.rommanel.com.br">Loja Online</a></li><li><a href="https://meumundoweb.rommanel.com.br/">Área dos Consultores</a></li><li><a href="https://www.rommanel.com.br/meu-mundo-rommanel/">APP Rommanel</a></li></ul><!-- /.list-links --></div></div><div class="footer__col"><div class="footer__row"><h5>A Rommanel</h5><ul class="list-links"><li><a href="/Institucional/quem-somos">Quem Somos</a></li><li><!--<a href="https://cliente.apdata.com.br/rommanel/Candidatoweb2.html">Trabalhe Conosco</a>--></li></ul><!-- /.list-links --></div></div><div class="footer__col"><div class="footer__row"><h5>Links Úteis</h5><ul class="list-links"><li><a href="/Institucional/termos-de-uso">Termos de Uso</a></li><li><a href="/Institucional/aviso-de-privacidade">Aviso de Privacidade</a></li><li><a href="/Institucional/direitos-autorais">Direitos Autorais</a></li></ul><!-- /.list-links --></div></div></div></div><!-- /.footer__inner --></div><!-- /.shell --><button class="gototop"></button></footer></div><script language="javascript" src="https://rommanel.vteximg.com.br/scripts/track.js?v=1.0.0.0"   type="text/javascript"></script>
+<script language="javascript" src="https://rommanel.vteximg.com.br/scripts/thickbox.js?v=1.0.0.0"   type="text/javascript"></script>
+<script language="javascript" src="https://rommanel.vteximg.com.br/scripts/json2.js?v=1.0.0.0"   type="text/javascript"></script>
+<script language="javascript" src="https://rommanel.vteximg.com.br/scripts/vtex.viewpart.callcenterdisclaimer.js?v=1.0.0.0"   type="text/javascript"></script>
+<script language="javascript" src="https://rommanel.vteximg.com.br/scripts/vtex.viewpart.ajaxloader_v2.js?v=1.0.0.0"   type="text/javascript"></script>
+<script language="javascript" src="https://rommanel.vteximg.com.br/scripts/vtex.commerce.search.js?v=1.0.0.0"   type="text/javascript"></script>
+<script language="javascript" src="https://rommanel.vteximg.com.br/scripts/vtex.viewpart.searchnavigator.js?v=1.0.0.0"   type="text/javascript"></script>
+<script language="javascript" src="https://rommanel.vteximg.com.br/scripts/vtex.commerce.batchbuy.js?v=1.0.0.0"   type="text/javascript"></script>
+<script language="javascript" src="https://rommanel.vteximg.com.br/scripts/vtex.jsevents.js?v=1.0.0.0"   type="text/javascript"></script>
+<script language="javascript" src="https://rommanel.vteximg.com.br/scripts/vtex.skuevents.js?v=1.0.0.0"   type="text/javascript"></script>
+<script language="javascript" src="https://rommanel.vteximg.com.br/scripts/vtex.skuevents.skudatafetcher.js?v=1.0.0.0"   type="text/javascript"></script>
+<script language="javascript" src="https://rommanel.vteximg.com.br/scripts/jquery.livequery.min.js?v=1.0.0.0"   type="text/javascript"></script>
+<script language="javascript" src="https://rommanel.vteximg.com.br/scripts/prettyphoto/js/jquery.prettyphoto.js?v=1.0.0.0"   type="text/javascript"></script>
+<script language="javascript" src="https://rommanel.vteximg.com.br/scripts/prettyphoto/js/lean-prettyphoto.js?v=1.0.0.0"   type="text/javascript"></script>
+<script language="javascript" src="https://rommanel.vteximg.com.br/scripts/vtex.commerce.compare.js?v=1.0.0.0"   type="text/javascript"></script>
+<script language="javascript" src="https://rommanel.vteximg.com.br/scripts/mobile/vtex.make.mobile.pager.js?v=1.0.0.0"   type="text/javascript"></script>
+<script language="javascript" src="https://rommanel.vteximg.com.br/scripts/vtex.commerce.switchgridlistview.js?v=1.0.0.0"   type="text/javascript"></script>
+</body>
+  <script type="text/javascript">
+  function getCookie(name) {
+    var cookies = document.cookie;
+    var prefix = name + "=";
+    var begin = cookies.indexOf("; " + prefix);
+    if (begin == -1) {
+      begin = cookies.indexOf(prefix);
+      if (begin != 0) {
+        return null;
+      }
+    } else {
+      begin += 2;
+    }
+    var end = cookies.indexOf(";", begin);
+    if (end == -1) {
+      end = cookies.length;
+    }
+    return unescape(cookies.substring(begin + prefix.length, end));
+  }
+
+  function cadastro(a) {
+    if (getCookie('IPI') !== null) {
+      var url1 = getCookie('IPI');
+      window.location.assign("https://cadastro.rommanel.com.br/?" + url1);
+    } else {
+      window.location.assign("https://cadastro.rommanel.com.br/");
+    }
+  }
+</script>
+  <script src="/arquivos/isotope.pkgd.min.js?v=636340706142170000"></script>
+  <script src="/arquivos/masonry.js?v=636340704384900000"></script>
+  <script src="/arquivos/jquery.elevateZoom-3.0.8.min.js?v=636340792849800000"></script>
+  <script src="/arquivos/jquery.magnific-popup.min.js?v=636340706766100000"></script>
+  <script src="/arquivos/mask.js?v=636340706465270000"></script>
+  <script src="/arquivos/rommanel.jquery-mask.js?v=636410903159100000"></script>
+  <script src="/arquivos/owl.carousel.min.js?v=636770306823700000"></script>
+  <script src="/arquivos/corebiz.sdk.js?v=636658809758200000"></script>
+  <script src="/arquivos/vtex-smartResearch.min.js?v=636740917637930000"></script>
+  <script src="/arquivos/form-validator.js?v=636340722834600000"></script>
+  <script src="/arquivos/general.functions.js?v=20190329"></script>
+  <script src="/arquivos/rommanel.login-v2.js?v=636658953235100000"></script>
+  <script src="/arquivos/rommanel.functions.js?v=636988121161300000"></script>
+  <script src="/arquivos/rommanel.custom.js?v=1657"></script>
+  <script src="/arquivos/rommanelb2c.newsletter.js?v=637050109157800000"></script>
+  <script src="https://io.vtex.com.br/vtex-id-ui/3.14.7/vtexid-jquery.min.js"></script>
+  <script src="/arquivos/rommanel.category-filtro.0.0.3.js?v=637804644781800000"></script>
+  <!--
+<script src="/arquivos/rommanel.category-resultado.js?v=1553"></script>
+-->
+</html>
