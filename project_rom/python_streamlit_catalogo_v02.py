@@ -19,11 +19,11 @@ st.title("Consulta de Produtos")
 
 # Campo de entrada numérica para o ID do produto
 product_id_base = st.number_input(
-    "Digite o ID base do produto (Exemplo: 820252):", 
-    min_value=0, 
-    step=1, 
-    format="%d", 
-    key="product_id_base_swap"
+    "Digite o ID base do produto (Exemplo: 820252):",
+    min_value=0,
+    step=1,
+    format="%d",
+    key="product_id_base_swap",
 )
 
 
@@ -58,18 +58,29 @@ if st.session_state.product_id_base_swap and product_id_base != 0:
             response = requests.get(url)
 
             if response.status_code == 200:
+                product_id = None  # Inicializa product_id como None
+
                 # Para a URL específica de "aneis", captura o ID dentro da tag <div>
                 if "aneis" in url:
-                    match = re.search(r'<div class="content-shelf teste" id="(\d+)">', response.text)
+                    match = re.search(
+                        r'<div class="content-shelf teste" id="(\d+)">', response.text
+                    )
+                    if match:
+                        product_id = match.group(1)
                 else:
-                    # Busca o número do produto na chave "shelfProductIds" para outras URLs
-                    match = re.search(r'"shelfProductIds":\["(\d+)"\]', response.text)
-                    if not match:
-                        match = re.search(r'"productId":\["(\d+)"\]', response.text)
+                    # Busca o número do produto na chave "shelfProductIds" ou "productId"
+                    match_shelf = re.search(r'"shelfProductIds":\["(\d+)"\]', response.text)
+                    # match_product = re.search(r'"productId":\s*"(\d+)"', response.text)
+                    match_div = re.search(r'<div class="content-shelf teste" id="(\d+)"', response.text)
+                    
+                    if match_shelf:
+                      product_id = match_shelf.group(1)
+                    # elif match_product:
+                      # product_id = match_product.group(1)
+                    elif match_div:
+                        product_id = match_div.group(1)
 
-                if match:
-                    product_id = match.group(1)  # Captura o ID completo (ex.: "27000100")
-
+                if product_id:
                     # Monta a URL da API
                     url_api = f"https://www.rommanel.com.br/api/catalog_system/pub/products/search?fq=productId:{product_id}"
 
@@ -83,12 +94,19 @@ if st.session_state.product_id_base_swap and product_id_base != 0:
                         st.subheader("Informações do Produto")
                         st.write(f"**Nome do Produto:** {data.get('productName', 'N/A')}")
                         st.write(f"**Descrição:** {data.get('description', 'N/A')}")
-                        st.write(f"**Preço:** R$ {data['items'][0]['sellers'][0]['commertialOffer']['Price']:.2f}")
-                        st.write(f"**Link do Produto:** [Clique aqui]({data.get('link', '#')})")
+                        st.write(
+                            f"**Preço:** R$ {data['items'][0]['sellers'][0]['commertialOffer']['Price']:.2f}"
+                        )
+                        st.write(
+                            f"**Link do Produto:** [Clique aqui]({data.get('link', '#')})"
+                        )
 
                         st.subheader("Imagens")
                         for image in data['items'][0]['images']:
-                            st.image(image['imageUrl'], caption=image.get('imageText', 'Imagem do Produto'))
+                            st.image(
+                                image['imageUrl'],
+                                caption=image.get('imageText', 'Imagem do Produto'),
+                            )
 
                         st.subheader("Outras Especificações")
                         st.write(f"**Material:** {', '.join(data.get('Material', []))}")
