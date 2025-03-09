@@ -2,7 +2,6 @@ import streamlit as st
 import requests
 import re
 import time
-import urllib.parse
 
 # Verifica se a variável não existe ainda e a inicializa
 if "product_id_base_swap" not in st.session_state:
@@ -52,7 +51,6 @@ urls = [
 # Botão para buscar as informações
 if st.session_state.product_id_base_swap and product_id_base != 0:
     product_found = False
-    product_data = {}  # Initialize product_data outside the loop
 
     for url in urls:
         try:
@@ -91,8 +89,7 @@ if st.session_state.product_id_base_swap and product_id_base != 0:
                     if api_response.status_code == 200 and api_response.json():
                         data = api_response.json()[0]  # Extrai o primeiro item da lista
                         product_found = True
-                        product_data = data # Store the product data
-                        
+
                         # Exibe as informações formatadas
                         st.subheader("Informações do Produto")
                         st.write(f"**Nome do Produto:** {data.get('productName', 'N/A')}")
@@ -105,13 +102,11 @@ if st.session_state.product_id_base_swap and product_id_base != 0:
                         )
 
                         st.subheader("Imagens")
-                        image_urls = []
                         for image in data['items'][0]['images']:
                             st.image(
                                 image['imageUrl'],
                                 caption=image.get('imageText', 'Imagem do Produto'),
                             )
-                            image_urls.append(image['imageUrl'])
 
                         st.subheader("Outras Especificações")
                         st.write(f"**Material:** {', '.join(data.get('Material', []))}")
@@ -119,19 +114,6 @@ if st.session_state.product_id_base_swap and product_id_base != 0:
                         st.write(f"**Faixa Etária:** {', '.join(data.get('Faixa Etária', []))}")
                         st.write(f"**Tema:** {', '.join(data.get('Tema', []))}")
                         st.write(f"**Coleção:** {', '.join(data.get('Coleção', []))}")
-                        
-                        # Share to WhatsApp
-                        if image_urls:
-                            whatsapp_message = f"Produto: {data.get('productName', 'N/A')}\n"
-                            whatsapp_message += f"Preço: R$ {data['items'][0]['sellers'][0]['commertialOffer']['Price']:.2f}\n"
-                            whatsapp_message += f"Link: {data.get('link', '#')}\n"
-                            whatsapp_message += "\nImagens:\n"
-                            for img_url in image_urls:
-                                whatsapp_message += f"{img_url}\n"
-                            
-                            whatsapp_url = f"https://wa.me/?text={urllib.parse.quote(whatsapp_message)}"
-                            st.markdown(f"[Compartilhar no WhatsApp]({whatsapp_url})", unsafe_allow_html=True)
-
                         break
             else:
                 st.warning(f"Não foi possível acessar a URL: {url}")
