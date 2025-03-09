@@ -3,20 +3,18 @@ import requests
 import re
 import time
 import urllib.parse
+from io import BytesIO
 
 # Verifica se a variável não existe ainda e a inicializa
 if "product_id_base_swap" not in st.session_state:
     st.session_state.product_id_base_swap = 0
 
-
 # Função para limpar o campo de entrada
 def limpar_input():
     st.session_state.product_id_base_swap = 0
 
-
 # Título da aplicação
 st.title("Consulta de Produtos")
-
 
 # Campo de entrada numérica para o ID do produto
 product_id_base = st.number_input(
@@ -27,15 +25,13 @@ product_id_base = st.number_input(
     key="product_id_base_swap",
 )
 
-
 # Criação das colunas para os botões
 col1, col2 = st.columns([2, 1])
 
 with col1:
-    # Botão swap para buscar o produto
+    # Botão para buscar o produto
     if st.button("Buscar Produto", key="btn_buscar"):
         pass
-        # st.session_state.product_id_base_swap = product_id_base
 
 with col2:
     # Botão para limpar o campo
@@ -52,7 +48,7 @@ urls = [
 # Botão para buscar as informações
 if st.session_state.product_id_base_swap and product_id_base != 0:
     product_found = False
-    product_data = {}  # Initialize product_data outside the loop
+    product_data = {}
 
     for url in urls:
         try:
@@ -60,7 +56,7 @@ if st.session_state.product_id_base_swap and product_id_base != 0:
             response = requests.get(url)
 
             if response.status_code == 200:
-                product_id = None  # Inicializa product_id como None
+                product_id = None
 
                 # Para a URL específica de "aneis", captura o ID dentro da tag <div>
                 if "aneis" in url:
@@ -72,13 +68,10 @@ if st.session_state.product_id_base_swap and product_id_base != 0:
                 else:
                     # Busca o número do produto na chave "shelfProductIds" ou "productId"
                     match_shelf = re.search(r'"shelfProductIds":\["(\d+)"\]', response.text)
-                    # match_product = re.search(r'"productId":\s*"(\d+)"', response.text)
                     match_div = re.search(r'<div class="content-shelf teste" id="(\d+)"', response.text)
                     
                     if match_shelf:
-                      product_id = match_shelf.group(1)
-                    # elif match_product:
-                      # product_id = match_product.group(1)
+                        product_id = match_shelf.group(1)
                     elif match_div:
                         product_id = match_div.group(1)
 
@@ -91,7 +84,7 @@ if st.session_state.product_id_base_swap and product_id_base != 0:
                     if api_response.status_code == 200 and api_response.json():
                         data = api_response.json()[0]  # Extrai o primeiro item da lista
                         product_found = True
-                        product_data = data # Store the product data
+                        product_data = data
                         
                         # Exibe as informações formatadas
                         st.subheader("Informações do Produto")
@@ -106,12 +99,32 @@ if st.session_state.product_id_base_swap and product_id_base != 0:
 
                         st.subheader("Imagens")
                         image_urls = []
-                        for image in data['items'][0]['images']:
+
+                        # Exibe cada imagem e adiciona botão de download
+                        for idx, image in enumerate(data['items'][0]['images'], start=1):
+                            image_url = image['imageUrl']
                             st.image(
-                                image['imageUrl'],
-                                caption=image.get('imageText', 'Imagem do Produto'),
+                                image_url,
+                                caption=image.get('imageText', f"Imagem {idx} do Produto"),
                             )
-                            image_urls.append(image['imageUrl'])
+                            # Armazena URL para posterior compartilhamento
+                            image_urls.append(image_url)
+
+                            # Tenta baixar a imagem para gerar o botão de download
+                            try:
+                                img_response = requests.get(image_url)
+                                if img_response.status_code == 200:
+                                    # Converte em bytes
+                                    img_bytes = img_response.content
+                                    # Botão para download
+                                    st.download_button(
+                                        label=f"Baixar Imagem {idx}",
+                                        data=img_bytes,
+                                        file_name=f"produto_{product_id}_img_{idx}.jpg",
+                                        mime="image/jpg"
+                                    )
+                            except Exception as e:
+                                st.warning(f"Não foi possível gerar download para esta imagem. Erro: {e}")
 
                         st.subheader("Outras Especificações")
                         st.write(f"**Material:** {', '.join(data.get('Material', []))}")
@@ -119,13 +132,13 @@ if st.session_state.product_id_base_swap and product_id_base != 0:
                         st.write(f"**Faixa Etária:** {', '.join(data.get('Faixa Etária', []))}")
                         st.write(f"**Tema:** {', '.join(data.get('Tema', []))}")
                         st.write(f"**Coleção:** {', '.join(data.get('Coleção', []))}")
-                        
-                        # Share to WhatsApp
+
+                        # Link para compartilhar via WhatsApp (apenas texto + links de imagem)
                         if image_urls:
                             whatsapp_message = f"Produto: {data.get('productName', 'N/A')}\n"
                             whatsapp_message += f"Preço: R$ {data['items'][0]['sellers'][0]['commertialOffer']['Price']:.2f}\n"
-                            whatsapp_message += f"Link: {data.get('link', '#')}\n"
-                            whatsapp_message += "\nImagens:\n"
+                            whatsapp_message += f"Link: {data.get('link', '#')}\n\n"
+                            whatsapp_message += "Imagens:\n"
                             for img_url in image_urls:
                                 whatsapp_message += f"{img_url}\n"
                             
