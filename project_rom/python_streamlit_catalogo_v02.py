@@ -64,6 +64,8 @@ if st.session_state.product_id_base_swap and product_id_base != 0:
                 else:
                     # Busca o número do produto na chave "shelfProductIds" para outras URLs
                     match = re.search(r'"shelfProductIds":\["(\d+)"\]', response.text)
+                    if not match:
+                        match = re.search(r'"productId":\["(\d+)"\]', response.text)
 
                 if match:
                     product_id = match.group(1)  # Captura o ID completo (ex.: "27000100")
